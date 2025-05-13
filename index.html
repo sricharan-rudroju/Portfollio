@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sricharan Rudroju Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+     <!-- <link rel="stylesheet" href="portfolio-style.css"> -->
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <!-- Boxicons CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    
+  </head>
+  
+<body>
+
+<!-- Header Section -->
+<header>
+  <div class="container">
+    <h1>Portfolio</h1>
+    <!-- <button class="menu-toggle">☰</button> Moved here -->
+    <ul class="main-nav">
+    <ul>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </ul>
+  </div>
+
+  <!-- Menu Toggle Button Below the Header -->
+<div class="menu-container">
+  <button class="menu-toggle">☰</button>
+</div>
+</header>
+
+<section id="home">
+  <div class="container home-content">
+    <div class="intro-text">
+      <h1>Hi, I'm Sricharan Rudroju</h1>
+      <!-- <p class="role-description">And I'm a Full Stack Java Developer</p> -->
+      <div class="role-description">
+        And I'm a <span id="dynamic-text"></span>
+      </div>
+      
+      <p>Welcome to my portfolio! I love creating powerful Java apps and responsive designs.</p>
+      <p id="title-about">I’m an enthusiastic software developer driven by a passion for creating innovative digital solutions. With a strong foundation in programming and a natural knack for problem-solving, I specialize in building robust software applications that deliver exceptional efficiency and an outstanding user experience.</p>
+
+      <!-- Social Media Icons -->
+      <div class="social-links">
+        <a href="https://www.facebook.com/tinku.martyn143/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="mailto:sricharanrudroju@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/sricharan_rudroju/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sricharan-rudroju" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <!-- Download CV -->
+      <a href="Sricharan Rudroju Resume.pdf" class="download-cv" target="_blank">Download CV</a>
+    </div>
+
+    <!-- Profile Image -->
+    <div class="profile-image">
+      <img src="SricharanRudroju.JPG" alt="Your Photo" />
+    </div>
+  </div>
+</section>
+
+
+<!-- About Me Section -->
+<section id="about">
+  <div class="container">
+    <h2>About <span>Me</span></h2>
+    <div class="about-content">
+      <p>
+        Hi! I'm Sricharan Rudroju, a passionate learner and coder who enjoys creating innovative and efficient solutions using Java and modern web technologies.I am currently pursuing a Bachelor of Technology in Computer Science and honing my skills in web development, programming, and database management. 
+        With a strong foundation in Java, HTML, CSS, JavaScript, and SQL, I am excited to explore new technologies and continue developing my skills.
+      </p>
+    </div>
+    <button class="read-more-btn" id="read-more-btn">Read More</button>
+  </div>
+</section>
+
+<!-- Full-screen About Me Modal -->
+<div id="about-modal" class="about-modal">
+  <div class="modal-content">
+    <h2>About <span>Me</span></h2>
+    <p>
+      Hi! I'm Sricharan Rudroju, a passionate learner and coder who enjoys creating innovative and efficient solutions using Java and modern web technologies. 
+      I am currently pursuing a Bachelor of Technology in Computer Science and honing my skills in web development, programming, and database management. 
+      With a strong foundation in Java, HTML, CSS, JavaScript, and SQL, I am excited to explore new technologies and continue developing my skills.
+    </p>
+    <p>
+      I believe in continuous learning and always seek opportunities to work on exciting projects that allow me to grow both personally and professionally. 
+      When I'm not coding, you can find me reading tech blogs, experimenting with new frameworks, or collaborating with others on open-source projects.
+    </p>
+    <button class="back-btn" id="back-btn">←</button>
+  </div>
+</div>
+
+
+<!-- Education Section -->
+<section id="education">
+  <h2>My <span>Education</span></h2>
+  <div class="education-cards">
+    <!-- Bachelor's Degree Card -->
+    <div class="education-card">
+      <div class="education-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h3>Bachelor's Degree</h3>
+      <!-- <h3>Bachelor's Degree in Electronics & Communication Engineering</h3> -->
+      <p><strong>Institute:</strong> Jyothishmathi Institute of Technology and Science</p>
+      <p><strong>Affiliated University:</strong> Jawaharlal Nehru Technological University Hyderabad (JNTUH)</p>
+      <!-- <p><strong>CGPA:</strong> 6.65</p> -->
+      <p><strong>Batch:</strong> 2021 - 2024</p>
+      <p>As a student of Electronics & Communication Engineering, I developed a deep understanding of the fundamentals and gained hands-on experience to apply my knowledge to solve real-world challenges. My academic journey has shaped me into an innovator, ready to drive impactful solutions in this dynamic field.</p>
+    </div>
+
+    <!-- Diploma Card -->
+    <div class="education-card">
+      <div class="education-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h3>Diploma</h3>
+      <!-- <h3>Diploma in Electronics & Communication Engineering</h3> -->
+      <p><strong>Institute:</strong> Jyothishmathi Institute of Technology and Science</p>
+      <p><strong>Affiliated University:</strong> State Board of Technical Education and Training Telangana (SBTET)</p>
+      <p><strong>Batch:</strong> 2018 - 2021</p>
+      <!-- <p><strong>CGPA:</strong> 5.79</p> -->
+      <p>This diploma program equipped me with a strong foundation in Electronics & Communication Engineering, laying the groundwork for my undergraduate studies. It helped me develop technical skills and a practical understanding that continues to shape my academic path.</p>
+    </div>
+
+    <!-- SSC (10th Grade) Card -->
+    <div class="education-card">
+      <div class="education-icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h3>SSC (10th Grade)</h3>
+      <p><strong>Board:</strong> Board of Secondary Education Of Telangana (BSETS)</p>
+      <!-- <p><strong>CGPA:</strong> 6.5</p> -->
+      <p>During my Secondary Education, I secured a 6.5 CGPA, which laid a strong academic foundation for my future. This phase of education was pivotal in shaping my academic mindset and instilling the importance of continuous learning, setting the stage for further success in higher education.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>My <span>Skills</span></h2>
+  <div class="skills-carousel">
+    <div class="skills-track">
+      <!-- Programming Icons -->
+      <i class="fab fa-java"></i>
+      <i class="fas fa-database"></i>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js"></i>
+    </div>
+  </div>
+</section>
+
+<!-- Tools Section -->
+<!-- <section id="tools"> -->
+<section id="tools">
+  <h2>Tools</h2>
+  <div class="tools-carousel">
+    <div class="tools-track">
+      <!-- Visual Studio Code Icon (VSCode) -->
+      <i class="bx bxl-visual-studio"></i>
+
+      <!-- MS Word Icon -->
+      <i class="bx bxl-microsoft"></i> <!-- Microsoft icon, can represent MS Word -->
+
+      <!-- GitHub Icon -->
+      <i class='bx bxl-github'></i> 
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container project-container">
+      <h2>My <span>Projects</span></h2>
+
+      <div class="project">
+        <h3>Shopping App (Java + JDBC)</h3>
+        <p>Console-based shopping application with login, cart, order, and admin modules using JDBC for database connectivity.
+          A robust e-commerce backend system built with Java following the MVC pattern, featuring secure login with CAPTCHA, multi-role user access, dynamic order and payment processing, and real-time discount calculations. Integrated MySQL via JDBC for efficient data management and optimized SQL queries. Future plans include migrating to a full-stack web application using Spring Boot, REST APIs, and modern front-end frameworks like React.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Gmail Login Clone</h3>
+        <p>Responsive login page built using HTML, CSS, and JavaScript, mimicking Gmail’s UI with full device responsiveness.
+          Crafted a high-fidelity clone of the Gmail login page using HTML5, CSS3, and JavaScript with 95% visual accuracy. The design is fully responsive across all screen sizes, features custom form validation to enhance user input reliability, and achieves optimized performance with load times under 2 seconds.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Full-Stack Blood Donation Portal</h3>
+        <p>Developed a comprehensive full-stack web application to streamline the management of blood donations, utilizing Spring Boot, Spring MVC, Spring Data JPA, Spring REST APIs, and Thymeleaf. This platform facilitates the registration of blood donors, the handling of blood requests, and provides an admin interface for donor management.
+          <h3>Key features include:</h3>
+
+            <p>
+              Donor Registration: Enabling new donors to register and manage their profiles.
+            
+              Blood Request Handling: Allows users to request blood based on their needs.
+              
+              Admin Management: Admin users can manage and monitor donor profiles and request statuses.
+              
+              MySQL Database: Ensures robust data persistence with JPA Repository for efficient CRUD operations.
+              
+              User-Friendly UI: Crafted a clean, responsive user interface with Thymeleaf, incorporating input validations to enhance user experience.
+  
+            Donor Registration: Enabling new donors to register and manage their profiles.
+  
+            Blood Request Handling: Allows users to request blood based on their needs.
+  
+            Admin Management: Admin users can manage and monitor donor profiles and request statuses.
+  
+            MySQL Database: Ensures robust data persistence with JPA Repository for efficient CRUD operations.
+  
+            User-Friendly UI: Crafted a clean, responsive user interface with Thymeleaf, incorporating input validations to enhance user experience.
+          </p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container-contact">
+    <h2>Contact <span>Me</span>!</h2>
+    <form action="SubmitForm.php" method="POST" class="contact-form">
+      <div class="row">
+        <div class="col">
+          <!-- <label for="full-name">Full Name</label> -->
+          <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        </div>
+        <div class="col">
+          <!-- <label for="email">Email Address</label> -->
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <!-- <label for="mobile">Mobile Number</label> -->
+          <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+        </div>
+        <div class="col">
+          <!-- <label for="subject">Subject</label> -->
+          <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+        </div>
+      </div>
+
+      <!-- <label for="message">Your Message</label> -->
+      <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Sricharan Rudroju. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!-- Mobile Navigation -->
+<!-- <button class="menu-toggle">☰</button> -->
+<nav class="nav-menu">
+  <ul>
+    <li><a href="#about">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+<!-- Theme Toggle Button -->
+<!-- <button id="theme-toggle">🌙</button> -->
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
